@@ -7,16 +7,16 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form class="frmAgregarCategoria">
+        <form id="frmAgregarCategoria">
             <label for="nombreCategoria">Nombre</label>
             <input type="text" id="nombreCategoria"  name="nombreCategoria" class="form-control">
-            <label for="descrpcion">Descripcion</label>
+            <label for="descripcion">Descripcion</label>
             <textarea name="descripcion" id="descripcion" class="form-control"></textarea>
         </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Guardar</button>
+        <button type="button" class="btn btn-primary" id="btnGuardarCategoria">Guardar</button>
       </div>
     </div>
   </div>
